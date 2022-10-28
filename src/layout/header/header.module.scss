@@ -1,0 +1,13 @@
+@import './../../scss/mixins.scss';
+
+.header {
+  background: rgba(18, 18, 18, 0.75);
+}
+
+.container {
+  @include section_container;
+}
+
+.offset {
+  padding: 10px 0;
+}
