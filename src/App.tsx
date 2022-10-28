@@ -1,8 +1,10 @@
 import React, { FC } from 'react';
 
-import Footer from './layout/footer';
+import './scss/global.scss';
+
 import Header from './layout/header';
 import Main from './layout/main';
+import Footer from './layout/footer';
 
 const App: FC = () => {
   return (
