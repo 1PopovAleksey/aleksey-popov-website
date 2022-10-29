@@ -1,0 +1,19 @@
+@import './../../scss/mixins.scss';
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  @include section_container;
+  height: 100vh;
+}
+
+.mySwiper {
+  height: 100%;
+}
+
+.offset {
+  padding: 180px;
+}
