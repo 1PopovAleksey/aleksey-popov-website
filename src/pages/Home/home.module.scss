@@ -15,5 +15,9 @@
 }
 
 .offset {
-  padding: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  @include offset;
 }
