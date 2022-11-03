@@ -6,11 +6,11 @@
 }
 
 .container {
-  @include section_container;
   height: 100vh;
 }
 
 .mySwiper {
+  @include section_container;
   height: 100%;
 }
 
@@ -20,4 +20,25 @@
   justify-content: center;
   height: 100%;
   @include offset;
+}
+
+.title {
+  width: 640px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.green {
+  color: var(--green);
+}
+
+.paragraph {
+  margin: 32px 0 0 0;
+  width: 640px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: var(--white);
 }
