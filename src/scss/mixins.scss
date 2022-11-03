@@ -1,14 +1,15 @@
 @mixin section_container {
   margin: 0 auto;
-  width: 280px;
+  width: 1200px;
+  // width: 280px;
 
-  @media (min-width: 768px) {
-    width: 540px;
-  }
+  // @media (min-width: 768px) {
+  //   width: 540px;
+  // }
 
-  @media (min-width: 1024px) {
-    width: 824px;
-  }
+  // @media (min-width: 1024px) {
+  //   width: 824px;
+  // }
 
   @media (min-width: 1440px) {
     width: 1200px;
