@@ -6,11 +6,11 @@
 }
 
 .container {
+  @include section_container;
   height: 100vh;
 }
 
 .mySwiper {
-  @include section_container;
   height: 100%;
 }
 
@@ -20,6 +20,17 @@
   justify-content: center;
   height: 100%;
   @include offset;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title {
@@ -41,4 +52,13 @@
   font-size: 24px;
   line-height: 100%;
   color: var(--white);
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.image {
+  border-radius: 50px;
 }
